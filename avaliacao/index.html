@@ -12,7 +12,7 @@
     </header>
     <div id="nav">
       <ul>
-        <li><a target="_blank" href="./pag2.html">Vagas cadastradas</a></li>
+        <li><a href="./pag2.html">Vagas cadastradas</a></li>
 
         <br />
       </ul>
@@ -21,25 +21,44 @@
       <div id="form01">
         <form action="" id="form">
           <label for="plate">Placa do veiculo</label>
-          <input type="text" name="plate" id="plate" /><br />
+          <input type="text" name="plate" id="plate" required /><br />
           <label for="owner_name">Nome do Proprietario</label>
-          <input type="text" name="owner_name" id="owner_name" /><br />
+          <input type="text" name="owner_name" id="owner_name" required /><br />
           <label for="apartament_block">Bloco do apartamento</label>
           <input
             type="text"
             name="apartament_block"
             id="apartament_block"
+            required
           /><br />
           <label for="vehicle_model">Modelo do veiculo</label>
-          <input type="text" name="vehicle_model" id="vehicle_model" /><br />
+          <input
+            type="text"
+            name="vehicle_model"
+            id="vehicle_model"
+            required
+          /><br />
           <label for="vehicle_color">Cor do veiculo</label>
-          <input type="text" name="vehicle_color" id="vehicle_color" /><br />
+          <input
+            type="text"
+            name="vehicle_color"
+            id="vehicle_color"
+            required
+          /><br />
           <label for="vacancy_number">Numero da vaga</label>
-          <input type="text" name="vacancy_number" id="vacancy_number" /><br />
+          <input
+            type="text"
+            name="vacancy_number"
+            id="vacancy_number"
+            required
+          /><br />
           <input id="submit" type="submit" value="Cadastrar" />
         </form>
       </div>
     </section>
     <script src="./script.js"></script>
+    <footer>
+      <p>&copy; 2023 Lucas Jose</p>
+    </footer>
   </body>
 </html>
